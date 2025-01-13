@@ -1,0 +1,41 @@
+.education {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holdimg {
+  width: 400px;
+}
+
+.holdimg img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 1px 0px 4px 0px var(--subtitle);
+}
+
+.edu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--title);
+}
+
+@media (max-width: 1125px) {
+  .education img {
+    display: none;
+  }
+  .education {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .education p {
+    margin-bottom: 5px;
+  }
+}
+
+.edu p :first-child {
+  margin-right: 5px;
+  color: var(--blue);
+}
