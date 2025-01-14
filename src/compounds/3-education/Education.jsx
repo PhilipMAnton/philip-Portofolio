@@ -33,7 +33,7 @@ function Education() {
       </h2>
       <section className="education" ref={EducationSection}>
         <div className="holdimg">
-          <img src="../../../public/edu.jpg" alt="" />
+          <img src="/edu.jpg" alt="" />
         </div>
         <div className="edu">
           <p>
