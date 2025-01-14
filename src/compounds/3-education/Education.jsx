@@ -42,7 +42,7 @@ function Education() {
           </p>
           <p>
             <FontAwesomeIcon icon={faGraduationCap} />
-            Bachelor of Science in Physics 2021 with 2.40 GPA
+            Bachelor of Science in Physics 2017 - 2021 with 2.40 GPA
           </p>
         </div>
       </section>
