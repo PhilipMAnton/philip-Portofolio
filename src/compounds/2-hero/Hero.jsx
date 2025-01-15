@@ -23,6 +23,7 @@ function Hero() {
               margin: { duration: 0.6, delay: 2, ease: "easeInOut" },
             }}
             style={{ fontSize: "3.5rem" }}
+            className="myName"
           >
             {" "}
             I'm Philip Maher

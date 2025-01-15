@@ -21,11 +21,12 @@ h2.intro:after {
 
 h2.intro {
   position: relative;
-  width: 300px;
+  width: 355px;
   height: 60px;
   text-align: center;
-  font-size: 1.6rem;
   display: flex;
+  font-size: 1.25rem;
+  font-weight: 900;
   justify-content: center;
   align-items: center;
   margin: 0 auto 5rem;

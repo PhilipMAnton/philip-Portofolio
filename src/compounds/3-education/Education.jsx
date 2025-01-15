@@ -27,9 +27,9 @@ function Education() {
   };
   return (
     <>
-      <h2 className="intro" ref={headerSection}>
+      <h2 className="intro" ref={headerSection} style={{ width: "400" }}>
         {" "}
-        Education
+        Education&courses
       </h2>
       <section className="education" ref={EducationSection}>
         <div className="holdimg">
@@ -42,7 +42,11 @@ function Education() {
           </p>
           <p>
             <FontAwesomeIcon icon={faGraduationCap} />
-            Bachelor of Science in Physics 2017 - 2021 with 2.40 GPA
+            The Ultimate React Course 2024 (Udemy)
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faGraduationCap} />
+            Bachelor of Science in Physics 2017 - 2021 with grade good
           </p>
         </div>
       </section>

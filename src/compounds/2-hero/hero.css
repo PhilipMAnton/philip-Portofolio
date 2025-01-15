@@ -114,8 +114,8 @@ section.hero .image-border::after {
 
 section.hero .avater {
   position: absolute;
-  width: 300.78px;
-  height: 300.78px;
+  width: 19rem;
+  height: 18.7rem;
   border-radius: 18%;
   left: -1px;
   top: 4px;
@@ -123,14 +123,51 @@ section.hero .avater {
 
 /* responsive */
 
-@media (max-width: 1250px) {
+@media (max-width: 1115px) {
   section.hero {
     flex-direction: column-reverse;
   }
   section.hero .all-icons {
     justify-content: center;
   }
-  .parent-avater {
+  section.hero .image-border::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 110px solid hsl(204, 100%, 50%);
+    border-radius: 19px;
+    border-left-color: transparent;
+  }
+  section.hero .image-border {
+    z-index: 3;
+    position: relative;
+    width: 14rem;
+    height: 14rem;
+    border: 2px solid var(--blue);
+    top: 0;
+    left: 0;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 7px 59px var(--blue) inset;
+  }
+  section.hero .avater {
+    position: absolute;
+    width: 14.9rem;
+    height: 13.7rem;
+    border-radius: 18%;
+    left: -1px;
+    top: 4px;
+  }
+  section.hero h1.title {
+    font-size: 1.5rem;
+    line-height: 4rem;
+    margin: 24px 0;
+    color: var(--title);
+  }
+  section.hero .myName {
+    font-size: 1.9rem !important;
   }
 }
 
