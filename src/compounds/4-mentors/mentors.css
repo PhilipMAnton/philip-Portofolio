@@ -37,6 +37,26 @@ h2.intro {
   transition: letter-spacing 1s 0.3s ease-out;
 }
 
+@media (max-width: 1110px) {
+  h2.intro {
+    position: relative;
+    width: 100%;
+    height: 54px;
+    text-align: center;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 5rem;
+    background: linear-gradient(45deg, var(--color-header), transparent);
+    color: transparent;
+    background-clip: text;
+    letter-spacing: 10px;
+    transition: letter-spacing 1s 0.3s ease-out;
+  }
+}
+
 /* slider */
 
 .slider {
