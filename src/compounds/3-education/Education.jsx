@@ -29,7 +29,7 @@ function Education() {
     <>
       <h2 className="intro" ref={headerSection} style={{ width: "400" }}>
         {" "}
-        Education&courses
+        Education
       </h2>
       <section className="education" ref={EducationSection}>
         <div className="holdimg">
