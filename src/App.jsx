@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./compounds/1-header/Header";
 import Hero from "./compounds/2-hero/Hero";
 import Education from "./compounds/3-education/Education";
-import Mentors from "./compounds/4-mentors/Mentors";
+import Skills from "./compounds/4-skills/Skills";
 import Main from "./compounds/5-main/Main";
 import Services from "./compounds/6-services/Skills";
 import Contact from "./compounds/7-contact/Contact";
@@ -30,7 +30,7 @@ function App() {
       <div className="divider"></div>
       <Main />
       <div className="divider"></div>
-      <Mentors />
+      <Skills />
       <div className="divider"></div>
       <Services />
       <div className="divider"></div>

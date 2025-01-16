@@ -93,3 +93,42 @@ h2.intro {
   width: 100%;
   transition: 0.3s;
 }
+
+.sub-skills {
+  margin: 0 6rem 3rem;
+  color: var(--color-header);
+  font-size: clamp(0.9rem, 5vw, 5rem );
+  padding: 5px;
+  text-align: center;
+  width: fit-content;
+  border-bottom: 5px solid;
+}
+
+.soft {
+  margin-top: 4rem;
+}
+
+.softskills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  align-items: center;
+  margin-left: 150px;
+  color: var(--title);
+  font-weight: bold;
+}
+
+.softskills span {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.softskills span:hover {
+  transform: translateX(5px);
+  color: var(--blue);
+}
+
+.softskills span :first-child {
+  margin-right: 10px;
+  color: var(--blue);
+}

@@ -36,5 +36,11 @@ footer.flex p {
   letter-spacing: 10px;
   transition: letter-spacing 1s 0.3s ease-out;
   font-family: "Alex Brush", cursive;
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 1115) {
+  .thankU {
+    text-align: center;
+  }
 }

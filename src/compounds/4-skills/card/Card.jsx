@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import "./card.css";
 import { useRef } from "react";
 // @ts-ignore
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
 function Card(props) {
   const mentorSection = useRef();
@@ -76,9 +78,33 @@ function Card(props) {
           My Skills
         </h2>
         <div className="slider">
+          <h4 className="sub-skills">Techanical Skills</h4>
           <div className="inner" style={{ position: "relative" }}>
             {ListOfMentors}
           </div>
+          <h4 className="sub-skills soft">Soft Skills</h4>
+        </div>
+        <div className="softskills ">
+          <span>
+            <FontAwesomeIcon icon={faCircle} />
+            Attention to Detalis
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faCircle} />
+            Analytical Thinking
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faCircle} />
+            Problem Solving
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faCircle} />
+            Team work
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faCircle} />
+            Communication Skills
+          </span>
         </div>
       </div>
     </>

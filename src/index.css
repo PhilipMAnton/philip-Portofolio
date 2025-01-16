@@ -62,6 +62,11 @@ body {
   margin-left: calc(var(--container-padding) * -1);
 }
 
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 li {
   list-style: none;
 }

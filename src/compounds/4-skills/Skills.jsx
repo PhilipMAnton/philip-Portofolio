@@ -1,4 +1,4 @@
-import "./mentors.css";
+import "./Skills.css";
 import Card from "./card/Card";
 // @ts-ignore
 
